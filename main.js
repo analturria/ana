@@ -1,8 +1,14 @@
 document.addEventListener("click" , showcolor);
 
-document.getElementById("botao").addEventListener("click" , exibenome)
+document.getElementById("botao").addEventListener("click" , exibenome);
 
-document.getElementById("btn-somar").addEventListener("click" , exiberesultado)
+document.getElementById("btn-somar").addEventListener("click" , exiberesultado);
+
+document.getElementById("btn-subtrair").addEventListener("click" , exiberesultado2);
+
+document.getElementById("btn-multiplicar").addEventListener("click" , exiberesultado3);
+
+document.getElementById("btn-dividir").addEventListener("click" , exiberesultado4);
 
 function showcolor()
 {

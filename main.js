@@ -24,9 +24,9 @@ function exibenome()
 
 function exiberesultado()
 {
-    let digitoum = document.getElementById("numb1").value;
-    let digitodois = document.getElementById("numb2").value;  
-    document.getElementById("resultado").innerHTML = parseFloat( digitoum ) + parseFloat( digitodois );
+    let numb1 = document.getElementById("numb1").value;
+    let numb2 = document.getElementById("numb2").value;  
+    document.getElementById("resultado").innerHTML = parseFloat( numb1teste ) + parseFloat( numb2 );
 }
 
 function exiberesultado2()
@@ -45,7 +45,7 @@ function exiberesultado3()
 
 function exiberesultado4()
 {
-    let num1 = document.getElementById("numb1").value;
-    let num2 = document.getElementById("numb2").value;  
+    let num1 = document.getElementById("num1").value;
+    let num2 = document.getElementById("num2").value;  
     document.getElementById("resultado4").innerHTML = parseFloat( num1 ) / parseFloat( num2 );
 }

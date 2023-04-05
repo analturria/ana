@@ -26,7 +26,7 @@ function exiberesultado()
 {
     let numb1 = document.getElementById("numb1").value;
     let numb2 = document.getElementById("numb2").value;  
-    document.getElementById("resultado").innerHTML = parseFloat( numb1teste ) + parseFloat( numb2 );
+    document.getElementById("resultado").innerHTML = parseFloat( numb1 ) + parseFloat( numb2 );
 }
 
 function exiberesultado2()

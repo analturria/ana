@@ -20,5 +20,5 @@ function somar()
 {
     let digitoum = document.getElementById("numb1").value;
     let digitodois = document.getElementById("numb2").value;  
-    document.getElementById("resultado").innerHTML = document.getElementById("numb1").innerHTML + document.getElementById("numb2").innerHTML
+    document.getElementById("resultado").innerHTML = parseFloat( digitoum ) + parseFloat( digitodois );
 }

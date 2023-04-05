@@ -16,7 +16,7 @@ function exibenome()
     document.getElementById( "nome" ).value = "";
 }
 
-function somar()
+function exiberesultado()
 {
     let digitoum = document.getElementById("numb1").value;
     let digitodois = document.getElementById("numb2").value;  

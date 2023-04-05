@@ -28,3 +28,24 @@ function exiberesultado()
     let digitodois = document.getElementById("numb2").value;  
     document.getElementById("resultado").innerHTML = parseFloat( digitoum ) + parseFloat( digitodois );
 }
+
+function exiberesultado2()
+{
+    let n1 = document.getElementById("n1").value;
+    let n1 = document.getElementById("n2").value;  
+    document.getElementById("resultado2").innerHTML = parseFloat( n1 ) - parseFloat( n2 );
+}
+
+function exiberesultado3()
+{
+    let nu1 = document.getElementById("nu1").value;
+    let nu2 = document.getElementById("nu2").value;  
+    document.getElementById("resultado3").innerHTML = parseFloat( nu1 ) * parseFloat( nu2 );
+}
+
+function exiberesultado4()
+{
+    let num1 = document.getElementById("numb1").value;
+    let num2 = document.getElementById("numb2").value;  
+    document.getElementById("resultado4").innerHTML = parseFloat( num1 ) / parseFloat( num2 );
+}
